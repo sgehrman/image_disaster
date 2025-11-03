@@ -48,6 +48,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text('This crashes with WASM'),
+            Image.asset('assets/test.png', width: 300, height: 300),
+
             if (_imageData != null)
               Image.memory(_imageData!, width: 300, height: 300),
             ElevatedButton(
