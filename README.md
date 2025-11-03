@@ -2,6 +2,8 @@
 
 Flutter WASM image handling crashes.
 
+[Source code](https://github.com/sgehrman/image_disaster)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
