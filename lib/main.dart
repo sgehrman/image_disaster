@@ -75,6 +75,7 @@ Steps to reproduce:\n
 
               Image.memory(_imageData!, width: 600, height: 300),
             ],
+            const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () async {
                 final image = await _loadUiImage('assets/test.png');
@@ -91,7 +92,7 @@ Steps to reproduce:\n
                   setState(() {});
                 }
               },
-              child: const Text('Crash Me'),
+              child: const Text('Load Image'),
             ),
           ],
         ),
