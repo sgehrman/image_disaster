@@ -1,0 +1,16 @@
+{
+  "explorer.compactFolders": false,
+  "workbench.editor.limit.enabled": true,
+  "dart.closingLabels": false,
+  "editor.bracketPairColorization.enabled": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "quickfix.insertSemicolon": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+
+  "editor.formatOnSave": true,
+  "editor.inlayHints.enabled": "off"
+}
