@@ -42,10 +42,10 @@ Use VSCode to run two targets: "image_disaster" and "image_disaster_wasm"
 WASM crashes when loading image from memory.\n
 Steps to reproduce:\n
 1. In VSCode, run "image_disaster_wasm"
-1. Click "Crash Me" button
+1. Click "Load Image" button
 2. Observe crash\n
 3. In VSCode, run "image_disaster"
-4. Click "Crash Me" button
+4. Click "Load Image" button
 5. Observe no crash
 ''';
 
